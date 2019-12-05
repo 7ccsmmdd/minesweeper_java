@@ -1,9 +1,11 @@
-package uk.ac.kcl.inf.szschaler.minesweeper.model.cells;
+package uk.ac.kcl.inf.szschaler.minesweeper.model.cells.inheritance_based;
 
 import java.awt.Component;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
+
+import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.Cell;
 
 /**
  * Inheritance-based implementation of the Cell interface.

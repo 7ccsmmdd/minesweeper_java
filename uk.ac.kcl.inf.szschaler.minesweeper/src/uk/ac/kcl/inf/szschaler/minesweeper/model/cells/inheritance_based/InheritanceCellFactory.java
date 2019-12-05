@@ -1,4 +1,7 @@
-package uk.ac.kcl.inf.szschaler.minesweeper.model.cells;
+package uk.ac.kcl.inf.szschaler.minesweeper.model.cells.inheritance_based;
+
+import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.Cell;
+import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.CellFactory;
 
 /**
  * CellFactory implementation producing inheritance-based cells.

@@ -1,4 +1,4 @@
-package uk.ac.kcl.inf.szschaler.minesweeper.model.cells;
+package uk.ac.kcl.inf.szschaler.minesweeper.model.cells.inheritance_based;
 
 import java.awt.Component;
 

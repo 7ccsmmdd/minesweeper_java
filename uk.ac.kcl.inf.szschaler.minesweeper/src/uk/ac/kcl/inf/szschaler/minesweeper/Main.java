@@ -1,6 +1,6 @@
 package uk.ac.kcl.inf.szschaler.minesweeper;
 
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.InheritanceCellFactory;
+import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.inheritance_based.InheritanceCellFactory;
 import uk.ac.kcl.inf.szschaler.minesweeper.view.MineFieldFrame;
 
 /**
