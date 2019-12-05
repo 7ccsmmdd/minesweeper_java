@@ -1,6 +1,6 @@
 package uk.ac.kcl.inf.szschaler.minesweeper;
 
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.inheritance_based.InheritanceCellFactory;
+import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.delegation_based.DelegationFactory;
 import uk.ac.kcl.inf.szschaler.minesweeper.view.MineFieldFrame;
 
 /**
@@ -8,9 +8,9 @@ import uk.ac.kcl.inf.szschaler.minesweeper.view.MineFieldFrame;
  * 
  * @author Steffen Zschaler
  */
-public class Main {
+public class DelegatingMain {
 
 	public static void main(String[] args) {
-		new MineFieldFrame(new InheritanceCellFactory()).setVisible(true);
+		new MineFieldFrame(new DelegationFactory()).setVisible(true);
 	}
 }
